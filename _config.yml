@@ -1,6 +1,4 @@
-url: ''
-baseurl: ''
-title: 'Jekyllwind'
+title: 'Covenant'
 
 plugins:
   - jekyll-postcss

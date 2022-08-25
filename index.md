@@ -1,19 +1,6 @@
 ---
 layout: default
 title: "Covenant"
-
-headline: "World-class negotiation to accelerate your sales"
-subhead: "Covenant's experienced negotiators use ai-enabled playbooks and deal data to seamlessly close customer agreements."
-
-blocks:
-  - title: "Improve outcomes"
-    body: "Use market references and historical precedent to negotiate from a position of strength."
-  - title: "Close faster"
-    body: "Powered by playbooks and technology to reach resolution more efficiently."
-  - title: "Lower costs"
-    body: "Spend less than outside counsel and free up internal teams by reducing agreement cycles."
-
-proof: "Built by the team that created WeWork's negotiation framework, battle-tested on 500,000 membership agreements and 500 leases across 30 countries."
 ---
 
 <div class="max-w-3xl mx-auto">
@@ -34,13 +21,13 @@ proof: "Built by the team that created WeWork's negotiation framework, battle-te
     </a>
   </header>
   <h1 class="pt-8 sm:pt-16 font-oswald text-5xl sm:text-8xl lg:text-9xl tracking-tight text-green-200 uppercase relative">
-    {{  page.headline }}
+    {{  site.data.landing.headline }}
   </h1>
   <h3 class="text-xl leading-tight sm:text-2xl mt-4 sm:mt-8">
-    {{ page.subhead  }}
+    {{ site.data.landing.subhead  }}
   </h3>
   <div class="sm:flex gap-10 mt-6">
-    {% for block in page.blocks %}
+    {% for block in site.data.landing.blocks %}
       <div class="basis-1/3 mt-2">
         <h3 class="font-semibold text-xl">{{ block.title }}</h3>
         <div class="text-blue-200 leading-tight sm:mt-1">{{ block.body }}</div>
@@ -48,7 +35,7 @@ proof: "Built by the team that created WeWork's negotiation framework, battle-te
     {% endfor %}
   </div>
   <div class="font-oswald text-3xl sm:text-5xl text-blue-100 pt-8 sm:pt-16 mt-8 sm:mt-16 border-solid border-t border-blue-400">
-    {{ page.proof  }}
+    {{ site.data.landing.proof  }}
   </div>
   <a class="block text-1xl sm:text-2xl mt-8 sm:mt-16 bg-blue-800 py-8 sm:py-16 text-center hover:bg-blue-900 leading-tight" href="mailto:contact@covenant.co">
     Learn how Covenant can<br class="sm:hidden"> accelerate your sales.

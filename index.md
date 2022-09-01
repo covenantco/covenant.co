@@ -26,7 +26,7 @@ title: "Covenant"
   <h3 class="text-xl leading-tight sm:text-2xl mt-4 sm:mt-8">
     {{ site.data.landing.subhead  }}
   </h3>
-  <div class="sm:grid grid-cols-{{ site.data.landing.blocks.size | modulo: 3 | replace: '0', '3' | replace: '2', '3' | replace: '1', '2' }} gap-4 mt-6">
+  <div class="sm:grid lg:grid-cols-2 gap-x-16 gap-y-4 mt-6">
     {% for block in site.data.landing.blocks %}
       <div>
         <h3 class="font-semibold text-xl">{{ block.title }}</h3>

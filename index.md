@@ -16,7 +16,7 @@ title: "Covenant"
     <h2 class="font-dm-serif text-3xl sm:text-4xl ml-3">
       Covenant
     </h2>
-    <a class="bg-blue-800 p-2 text-sm sm:text-base ml-auto hover:bg-blue-900 hidden sm:inline" href="mailto:contact@covenant.co">
+    <a class="bg-blue-800 p-2 text-sm sm:text-base ml-auto hover:bg-blue-900 hidden sm:inline" href="mailto:contact@covenant.co?subject=Covenant&body=I'd%20like%20to%20learn%20how%20Covenant%20can%20accelerate%20my%20sales%20through%20better%20negotiations.">
       Learn more
     </a>
   </header>
@@ -37,7 +37,7 @@ title: "Covenant"
   <div class="font-oswald text-3xl sm:text-5xl text-blue-100 pt-8 sm:pt-16 mt-8 sm:mt-16 border-solid border-t border-blue-400">
     {{ site.data.landing.proof  }}
   </div>
-  <a class="block text-1xl sm:text-2xl mt-8 sm:mt-16 bg-blue-800 py-8 sm:py-16 text-center hover:bg-blue-900 leading-tight" href="mailto:contact@covenant.co">
+  <a class="block text-1xl sm:text-2xl mt-8 sm:mt-16 bg-blue-800 py-8 sm:py-16 text-center hover:bg-blue-900 leading-tight" href="mailto:contact@covenant.co?subject=Covenant&body=I'd%20like%20to%20learn%20how%20Covenant%20can%20accelerate%20my%20sales%20through%20better%20negotiations.">
     Learn how Covenant can<br class="sm:hidden"> accelerate your sales.
   </a>
   <footer class="text-blue-400 text-sm mt-16">

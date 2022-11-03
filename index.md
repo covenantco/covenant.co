@@ -38,7 +38,7 @@ title: "Covenant"
     {{ site.data.landing.proof  }}
   </div>
   <a class="block text-1xl sm:text-2xl mt-8 sm:mt-16 bg-blue-800 py-8 sm:py-16 text-center hover:bg-blue-900 leading-tight" href="mailto:contact@covenant.co?subject=Covenant&body=I'd%20like%20to%20learn%20how%20Covenant%20can%20accelerate%20my%20sales%20through%20better%20negotiations.">
-    Learn how Covenant can<br class="sm:hidden"> accelerate your sales.
+    Learn how Covenant can<br class="sm:hidden"> help you negotiate.
   </a>
   <footer class="text-blue-400 text-sm mt-16">
     Good agreements should be easy to reach. <div class="inline-block">© 2022</div>

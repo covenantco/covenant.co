@@ -1,20 +1,25 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   content: [
-    './_drafts/**/*.html',
-    './_includes/**/*.html',
-    './_layouts/**/*.html',
-    './_posts/*.md',
-    './*.md',
-    './*.html',
+    './_site/**/*.html'
   ],
   theme: {
     extend: {
+      colors: {
+        covenantBlue: {
+          200: '#DAE2F1',
+          500: '#447DF6',
+          900: '#0E102E'
+        }
+      },
       fontFamily: {
-        'oswald': ['Oswald'],
-        'work-sans': ['"Work Sans"'],
-        'dm-serif': ['"DM Serif Text"']
+        'lora': ['Lora'],
+        'inter': ['Inter'],
       },
     },
   },
-  plugins: []
+  plugins: [
+    require('tailwind-children')
+  ]
 }

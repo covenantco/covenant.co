@@ -2,6 +2,7 @@ title: 'Covenant'
 
 plugins:
   - jekyll-postcss-v2
+  - jekyll-datapage-generator
 
 postcss:
   cache: false
@@ -11,3 +12,12 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+
+page_gen-dirs: true
+
+page_gen:
+- data: landing.projects
+  template: project
+  dir: projects
+  name_expr: record['nickname'] || record['name']
+  page_data_prefix: project

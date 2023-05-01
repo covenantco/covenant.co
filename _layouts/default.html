@@ -1,19 +1,43 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="{{ site.lang | default: " en-US" }}" class="h-full">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <meta name="description" content="Covenant">
+    <link rel="icon" href="{{ "/favicon.ico" | relative_url }}" sizes="any">
+    <!-- <link rel="icon" href="{{ "/favicon.svg" | relative_url }}" type="image/svg+xml"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relative_url }}">
+    <link rel="manifest" href="{{ "/site.webmanifest" | relative_url }}">
+    <link rel="mask-icon" href="{{ "/favicon.svg" | relative_url }}" color="#000">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta name="theme-color" content="#fff">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Oswald&family=Work+Sans:wght@300;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.covenant.co">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Covenant">
+    <meta property="og:description" content="Reshaping the law firm for the AI era.">
+    <meta property="og:image" content="{{ "/opengraph.png" | relative_url }}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="covenant.co">
+    <meta property="twitter:url" content="https://www.covenant.co">
+    <meta name="twitter:title" content="Covenant">
+    <meta name="twitter:description" content="Reshaping the law firm for the AI era.">
+    <meta name="twitter:image" content="{{ "/opengraph.png" | relative_url }}">
 </head>
 
-<body class="font-work-sans font-light p-6 sm:p-10 md:p-16 bg-blue-700 text-white">
+<body class="antialiased h-full w-full font-inter">
     {{ content }}
 </body>
 

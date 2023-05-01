@@ -4,3 +4,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .stuck h2 {
+        /* @apply opacity-0 mt-0; */
+    }
+    a {
+        @apply underline;
+    }
+    /* a:not([href]), a[href=""] { */
+    /*     @apply decoration-gray-500; */
+    /* } */
+}

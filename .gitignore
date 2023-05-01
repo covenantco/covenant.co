@@ -3,3 +3,6 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 node_modules
+.DS_Store
+/assets/misc-to-sort/full.psd
+/assets/videos/work/svpply/iPadToday97.webm

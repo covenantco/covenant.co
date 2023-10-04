@@ -46,9 +46,27 @@ title: "Covenant"
 <section id="about"
     class="bg-covenantBlue-200 font-lora text-2xl bg-[url('{{ "/assets/images/oculus.jpg" | relative_url }}')] bg-blend-luminosity bg-cover bg-right">
     <div class="px-10 py-10 sm:py-20 bg-covenantBlue-200/90 md:bg-transparent md:bg-gradient-to-r from-covenantBlue-200 via-covenantBlue-200 to-transparent">
-        <div class="max-w-4xl mx-auto">
+        {% comment %} <div class="max-w-4xl mx-auto">
             <div class="md:w-1/2">
                 Covenant combines world-class legal advice with cutting edge innovation to improve client outcomes
+            </div>
+        </div> {% endcomment %}
+        <div class="max-w-4xl mx-auto">
+            <div class="">
+                <div class="md:grid grid-cols-2 gap-10 [&>*]:mb-8">
+                    <div class="text-center md:text-left">
+                        Covenant combines world-class legal advice with cutting edge innovation to improve client outcomes
+                    </div>
+                    {% comment %} <div class="hidden xl:block">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P13lY_-T8oY?si=6GetxBPP9gzRtcsB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="hidden md:block xl:hidden">
+                        <iframe width="350" height="197" src="https://www.youtube-nocookie.com/embed/P13lY_-T8oY?si=6GetxBPP9gzRtcsB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div> {% endcomment %}
+                    <div class="relative" style="padding-bottom: 56.25%">
+                        <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube-nocookie.com/embed/P13lY_-T8oY?si=6GetxBPP9gzRtcsB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -56,7 +74,7 @@ title: "Covenant"
 
 
 <section class="bg-covenantBlue-500 px-5 sm:px-10 py-5 text-center text-white">
-    <h2 class="font-lora text-xl md:text-2xl">We are harnessing the potential of AI to help lawyers do their job better</h2>
+    <h2 class="font-lora text-xl md:text-2xl">AI built for lawyers by lawyers</h2>
     <a href="mailto:contact@covenant.co"
         class="inline-block text-covenantBlue-500 no-underline bg-white py-1 px-4 rounded-full ml-auto mt-4">
         Contact Us
